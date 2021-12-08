@@ -1,9 +1,8 @@
 name: Changelog CI
 
 on:
-  # pull_request:
-  #   types: [ opened ]
-  [push, pull_request]
+  pull_request:
+    types: [ opened ]
 
 jobs:
   build:
