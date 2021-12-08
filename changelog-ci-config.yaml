@@ -1,0 +1,6 @@
+changelog_type: 'pull_request'
+header_prefix: 'Version:'
+commit_changelog: true
+comment_changelog: true
+pull_request_title_regex: '^(?i:.*\d{1}.\d{1,2})'
+version_regex: '\d{1}.\d{1,2}'
